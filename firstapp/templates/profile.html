@@ -1,26 +1,3 @@
-{% comment %} <!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Profile Page</title>
-    <!-- Add your CSS and JS files here -->
-</head>
-<body>
-    <form  method="post">
-        {% csrf_token %}
-    <h1>{{ user.username }}'s Profile</h1>
-    <p>Email: {{ email.user }}</p>
-    
-    </form>
-    
-    <!-- Add more profile details as needed -->
-</body>
-</html>
-
-  {% endcomment %}
-
-
 {% load static %}
 <!DOCTYPE html>
 <html>
